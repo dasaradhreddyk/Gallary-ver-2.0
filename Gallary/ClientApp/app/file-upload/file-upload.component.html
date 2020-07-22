@@ -1,0 +1,11 @@
+<h3><font font-color ="blue"></font>Upload Files  </h3>
+<h4>image,pdf or video links</h4>
+<input #file type="file" multiple (change)="upload(file.files)" />
+<br />
+<span style="font-weight:bold;color:green;" *ngIf="progress > 0 && progress < 100">
+    {{progress}}%
+</span>
+
+<span style="font-weight:bold;color:green;" *ngIf="message">
+    {{message}}
+</span> 

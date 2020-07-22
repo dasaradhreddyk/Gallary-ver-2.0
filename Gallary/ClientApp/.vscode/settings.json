@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/e9e7f09c-1ba0-4fb2-b31a-28a3690afdda/resourceGroups/Gallary20191129050752ResourceGroup/providers/Microsoft.Web/sites/Talaash",
+    "appService.deploySubpath": ""
+}

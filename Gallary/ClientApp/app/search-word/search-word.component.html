@@ -1,0 +1,16 @@
+<div class="container">
+
+    <hr />
+    <input type="text" value="Sydney" [(ngModel)]="placeId" />
+    <button class='btn btn-primary' (click)="sendNotification(placeId,typeId)">Search </button>
+    <input type="radio" name="type"  value="image" [(ngModel)]="typeId" checked>image
+    <input type="radio" name="type" value="video" [(ngModel)]="typeId">video
+    <input type="radio" name="type" value="pdf" [(ngModel)]="typeId">pdf
+    <h3>Trending Topics</h3>em    <p>Number of events: {{numEvents}}</p>
+    <ul>
+        <li [class]="eventsList" *ngFor="let event of Events1" (click)="sendNotification(event)">
+            {{ event }}
+        </li>
+    </ul>
+
+</div>

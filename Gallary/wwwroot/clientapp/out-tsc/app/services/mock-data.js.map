@@ -1,0 +1,1 @@
+{"version":3,"file":"mock-data.js","sourceRoot":"","sources":["../../../../../ClientApp/app/services/mock-data.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,IAAM,UAAU,GACvB;IACE;QACE,IAAI,EAAG,+BAA+B;QACtC,GAAG,EAAE,+EAA+E;QACpF,OAAO,EAAE,+EAA+E;QAChF,UAAU,EAAE,+EAA+E;QAC3F,KAAK,EAAE,EAAE;QACT,KAAK,EAAC,EAAE;KAEjB;CAEF,CAAA"}
