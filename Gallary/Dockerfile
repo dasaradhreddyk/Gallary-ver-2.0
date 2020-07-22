@@ -9,7 +9,7 @@ WORKDIR /src
 COPY ["Gallary.csproj", "Gallary/"]
 RUN dotnet restore "Gallary/Gallary.csproj"
 COPY . .
-WORKDIR "/src/Gallary"
+WORKDIR "/src/."
 RUN dotnet build "Gallary.csproj" -c Release -o /app/build
 
 RUN apt-get update && \
